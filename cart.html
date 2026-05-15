@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ILYA BRIDE</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="js/main.js"></script><link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="cart.html">Cart</a>
+  <a href="checkout.html">Checkout</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</nav>
+<main>
+  <h1 class="cart-h1"> Your Cart</h1><div id="cart-items"></div>
+
+<h2  id="total-price">  Total-price</h2>
+<a href="checkout.html" class="btn btn-dark w-100 checkout-btn">
+  Go to Checkout
+</a>
+
+
+  
+</main>
+
+<script>
+document.getElementById("checkoutBtn").addEventListener("click", function () {
+  window.location.href = "checkout.html";
+});
+</script>
+
+</body>
+</html>
